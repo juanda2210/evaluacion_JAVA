@@ -1,0 +1,3 @@
+CLIENTE|1|Juanda|1097489524|juandarias2204@gmail.com|3007447034|Puntual
+CLIENTE|2|Mafe|768492|mafecala234@gmail.com|654789|Puntual
+CLIENTE|3|Kaka'|54674|kakabrasiu65@gmail.com|314567853|Moroso

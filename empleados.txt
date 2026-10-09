@@ -1,0 +1,5 @@
+EMPLEADO|1|Camachini|3456|Programador|program.camachini@gmail.com|6500000.0
+EMPLEADO|2|Danix|34679|Supervisor|junk23@gmail.com|2300000.0
+EMPLEADO|3|kyc|4321|Digitador|digkyc321@gmail.com|4500000.0
+EMPLEADO|1|Camachini|3456|Programador|program.camachini@gmail.com|6500000.0
+EMPLEADO|5|Nicolacito|435|Programador|nicolas@gmail.com|5400000.0
