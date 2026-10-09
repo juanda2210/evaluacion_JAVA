@@ -963,6 +963,47 @@ StandardOpenOption.APPEND
 
 ---
 
+## EXAMEN MUESTRAS
+
+Opciones integradas en el examen:
+
+- Nueva clase llamada GestorPagos
+- Lista donde se almacenan Pagos
+- Metodo de listar pagos
+- Opcion de mostrar pagos mayores a un valor determinado por consola
+
+Para ingresar a estas nuevas opciones debes:
+
+1. Entrar a la opcion Pagos del menú principal
+2. Si quieres añadir un nuevo pago a la lista entonces
+   2.1. Das a la opcion 5
+   2.2. Ingresas documento del cliente
+   2.3. Luego ingresas id del prestamo del cliente segun los que se muestran
+   2.4. Ingresas el id del pago
+3. Si quieres listar los pagos añadidos entonces das a la opcion 6
+4. Si quieres listar los pagos mayores a un valor determinado, entonces escoges la opcion 7
+
+## EVIDENCIAS
+
+### Menu de pagos
+
+![menuDePgos](images/menuDePagos.png)
+
+### Agregar nuevo Pago a lista
+
+![pagoALista](images/registroDePago.png)
+
+### Listado de Pagos
+
+![listadoDePagos](images/listadoDePagos.png)
+
+### Pagos mayores a valor por consola
+
+![pagosMayoresAValor](images/pagosMayoresA.png)
+
+
+
+
 ## 🧠 Aprendizajes del proyecto
 
 Este proyecto integra diferentes áreas del desarrollo de aplicaciones:

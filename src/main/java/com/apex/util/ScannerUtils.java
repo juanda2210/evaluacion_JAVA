@@ -40,7 +40,34 @@ public class ScannerUtils {
         return dato;
     }
 
+
     public static double capturarDecimal(String mensaje) {
+        System.out.println(mensaje + ": ");
+
+        while (!SCANNER.hasNextDouble()) {
+            System.out.println("Dato no aceptado. " + mensaje + ": ");
+            SCANNER.next();
+        }
+
+        double dato = SCANNER.nextDouble();
+        SCANNER.nextLine();
+
+        while (dato < 0) {
+            System.out.println("El valor no puede ser menor que 0. " + mensaje + ": ");
+
+            while (!SCANNER.hasNextDouble()) {
+                System.out.println("Dato no aceptado. " + mensaje + ": ");
+                SCANNER.next();
+            }
+
+            dato = SCANNER.nextDouble();
+            SCANNER.nextLine();
+        }
+
+        return dato;
+    }
+
+    /*public static double capturarDecimal(String mensaje) {
         System.out.println(mensaje + ": ");
 
         while (!SCANNER.hasNextDouble()) {
@@ -51,7 +78,7 @@ public class ScannerUtils {
         double dato = SCANNER.nextDouble();
         SCANNER.nextLine();
         return dato;
-    }
+    }*/
 
     public static String capturarRegistroDocumentoCliente(String mensaje) throws SQLException {
         String dato;
